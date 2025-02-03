@@ -1,0 +1,79 @@
+/* work sans font */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: "Work Sans", serif;
+    font-optical-sizing: auto;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* shared style */
+.display-flex {
+    display: flex;
+}
+.dark_1 {
+    color: #131313;
+}
+.dark_2 {
+    color: #424242;
+}
+.dark_3 {
+    color: #727272;
+}
+.tomato {
+    color: #FF900E;
+}
+.bg_light {
+    background-color: rgba(255, 144, 14, 0.1);
+}
+/* header related style */
+.navber, .banner {
+    max-width: 1440px;
+    justify-content: space-between;
+    margin: 0 auto;
+    align-items: center;
+
+}
+.nav_item  {
+    list-style: none;
+}
+.nav_link {
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 500;
+    padding: 0.5rem 1rem;
+    transition: all 0.3s ease;
+}
+.brand {
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: #000;
+}
+.banner_content {
+    width: 860px;
+    text-align: center;
+    margin: 0 auto;
+}
+.banner_tittle {
+    font-size: 4rem;
+    font-weight: 700;
+    color: #000;
+}
+.btn_primary {
+    background-color: #FF900E;
+    color: #fff;
+    padding: 0.8rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.banner_img {
+    width: 100%;
+    height: 100%;
+    margin: 4rem 0;
+}
+/* navber realated style */
