@@ -137,6 +137,6 @@ section {
     grid-template-columns: 1fr;
    } 
    .fact_content {
-    align-items: center;
+    justify-items: center;
    }
 }
