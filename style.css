@@ -84,7 +84,7 @@ section {
     margin-top: 100px;
 }
 .team_feature {
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     gap: 1.8rem;
 }
@@ -92,6 +92,35 @@ section {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 1.1rem;
+}
+.some_fact {
+    width: 442px;
+    
+}
+.features {
+    gap: 140px;
+}
+#section_tittle {
+    border-left: 5px solid #FF900E;
+    padding-left: 1rem;
+}
+.box {
+  
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+    border-radius: 8px;
+    padding: 1.5rem;
+    background-color: #fff;
+    margin-bottom: 1rem;
+}
+#Experience_badge {
+    padding: 40px 35px;
+    font-size: 2rem;
+    margin-top: -100px;
+    margin-left: -100px;
+}
+.Experience_tittle {
+    font-size: 3rem;
+    font-weight: 700;
 }
 .feature_tittle, h3 {
     font-size: 2.7rem;
@@ -102,6 +131,11 @@ section {
     font-size: 1.rem;
     font-weight: 400;
     color: #727272;
+    text-align: left;
+}
+.feature_img  img{
+    width: 100%;
+  
 }
 .fact_item {
     width: 240px;
@@ -120,12 +154,42 @@ section {
     margin-top: 2rem;
     
 }
+.spon_container {
+    width: 442px;
+    text-align: center;
+    margin: 0 auto;
+}
+.spon_logos {
+  
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-content: space-around;
+    margin: 50px 0;
+    filter: grayscale(100%);
+    align-items: center;
+    gap: 1.5rem;
+}
+/* footer area */
+
+.fotter_description {
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color: #FF900E;
+}
+.fotter_description p {
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: 400;
+    text-align: center;
+    padding: 1.5rem 0;
+}
 /* Responsive media queary */
 
 @media screen and (max-width: 576px) {
-   .navber,
+    .navber,
     .nav_links,
-    .team_feature 
+    .team_feature, 
+    .features
     {
     flex-direction: column;
    }
@@ -133,10 +197,17 @@ section {
     text-align: center;
    }
    .team,
-   .fact_content {
+   .fact_content,
+   .spon_logos {
     grid-template-columns: 1fr;
    } 
-   .fact_content {
+   .fact_content,
+   .spon_logos
+    {
     justify-items: center;
+   }
+   #Experience_badge {
+    margin-top: 0;
+    margin-left: 0;
    }
 }
